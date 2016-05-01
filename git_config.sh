@@ -17,3 +17,20 @@ git config --global alias.from '!git fetch -p; git rebase origin/master'
 git config --global alias.lg "log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 git config --global alias.st 'status'
 git config --global alias.stu 'status --untracked-files=no'
+
+# Thanks to http://gggritso.com/human-git-aliases
+# common mistakes
+git config --global alias.tags 'tag'
+git config --global alias.branches 'branch -a'
+git config --global alias.stashes 'stash list'
+git config --global alias.remotes 'remote -v'
+
+# undoing stuff
+git config --global alias.unstage 'reset -q HEAD --'
+git config --global alias.discard 'checkout --'
+git config --global alias.uncommit 'reset --mixed HEAD~'
+git config --global alias.amend 'commit --amend'
+# nuclear version
+git config --global alias.nevermind '!git reset --hard HEAD && git clean -d -f'
+
+
