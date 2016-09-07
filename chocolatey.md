@@ -8,11 +8,11 @@ Voir les packages sur https://chocolatey.org/packages.
 Installation
 ----------------
 
-    choco install chocolateygui
+    choco install --yes chocolateygui
 
 
-    choco install  ^
-    googlechrome ^
+    choco install --yes ^
+     googlechrome ^
      notepadplusplus ^
      sublimetext3 sublimetext3.packagecontrol ^
      7zip ^
@@ -30,4 +30,4 @@ Installation
      vcxsrv
 
 
-    choco install virtualbox
+    choco install --yes virtualbox
