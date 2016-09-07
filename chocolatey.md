@@ -1,0 +1,33 @@
+Chocolatey
+=========
+
+Pour installer un poste de dev.
+
+Voir les packages sur https://chocolatey.org/packages.
+
+Installation
+----------------
+
+    choco install chocolateygui
+
+
+    choco install  ^
+    googlechrome ^
+     notepadplusplus ^
+     sublimetext3 sublimetext3.packagecontrol ^
+     7zip ^
+     procexp ^
+     winscp ^
+     putty ^
+     git ^
+     curl ^
+     conemu ^
+     ccleaner ^
+     launchy ^
+     jdk ^
+     sumatrapdf ^
+     rescuetime ^
+     vcxsrv
+
+
+    choco install virtualbox
