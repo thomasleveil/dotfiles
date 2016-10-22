@@ -24,6 +24,7 @@ Installation
      conemu ^
      ccleaner ^
      launchy ^
+     altdrag ^
      jdk ^
      sumatrapdf ^
      rescuetime ^
