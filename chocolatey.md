@@ -27,6 +27,7 @@ Installation
      altdrag ^
      jdk ^
      sumatrapdf ^
+     rufus ^
      rescuetime ^
      vcxsrv
 
