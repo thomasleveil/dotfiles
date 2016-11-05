@@ -20,6 +20,7 @@ Installation
      winscp ^
      putty ^
      git ^
+     bind-toolsonly ^
      curl ^
      conemu ^
      ccleaner ^
