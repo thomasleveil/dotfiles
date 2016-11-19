@@ -17,8 +17,8 @@ WinSCP PuTTY config
         C:\bin\kitty.exe -load "Default Settings" -A -P !# -t -m "%TEMP%\putty.txt" !U@!@ !`cmd.exe /c echo cd '!/' ; TERM=xterm-color /bin/bash -login > "%TEMP%\putty.txt"`
 
 
-.bashrc trics
--------------
+shell trics
+-----------
 
 ### terminal title 
 
@@ -33,3 +33,14 @@ add to the end of `~/.bashrc`:
     /usr/bin/keychain --clear $HOME/.ssh/id_rsa
     source $HOME/.keychain/$HOSTNAME-sh
     
+and to `~/.config/fish/config.fish`:
+
+    Set -gx HOSTNAME (hostname)
+    if status --is-interactive;
+        keychain --nogui --clear ~/.ssh/id_rsa
+        [ -e $HOME/.keychain/$HOSTNAME-fish ]; and . $HOME/.keychain/$HOSTNAME-fish
+    end
+    
+### history reverse lookup in fish
+
+install [fzf](https://github.com/junegunn/fzf)
