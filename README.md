@@ -36,4 +36,4 @@ add to the end of `~/.bashrc`:
 ### Oh my zsh
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-    sed -ri 's/^ZSH_THEME=".+"(.*)/ZSH_THEME="agnoster"\1/p' ~/.zshrc
+    sed -ri 's/^ZSH_THEME=".+"(.*)/ZSH_THEME="agnoster"\1/' ~/.zshrc
