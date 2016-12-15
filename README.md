@@ -40,3 +40,9 @@ add to the end of `~/.bashrc`:
     sed -ri 's/^(#\s*)?ENABLE_CORRECTION=.*/ENABLE_CORRECTION="true"/' ~/.zshrc
     sed -ri 's@^(#\s*)?HIST_STAMPS=.*@HIST_STAMPS="dd/mm/yyyy"@' ~/.zshrc
     sed -ri 's/^(#\s*)?COMPLETION_WAITING_DOTS=.*/COMPLETION_WAITING_DOTS="true"/' ~/.zshrc
+    
+### fasd
+
+    sudo add-apt-repository ppa:aacebedo/fasd; sudo apt update; sudo apt install fasd
+    echo 'eval "$(fasd --init auto)"' >> ~/.zshrc
+
