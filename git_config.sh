@@ -15,7 +15,8 @@ git config --global alias.dc 'diff --cached'
 git config --global alias.di 'diff --ignore-space-at-eol'
 git config --global alias.from '!git fetch -p; git rebase origin/master'
 git config --global alias.lg "log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-#git config --global alias.lg 'log --graph --oneline --decorate --all'
+# git config --global alias.lg 'log --graph --oneline --decorate --all'
+# log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative
 git config --global alias.st 'status'
 git config --global alias.stu 'status --untracked-files=no'
 
