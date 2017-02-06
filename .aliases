@@ -1,0 +1,11 @@
+ls='ls --color=tty'
+ll='ls -l'
+
+less='less -R'
+
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+
+alias ddig="dig axfr local | egrep --color "
+alias doco="docker-compose"
+alias meteo='curl -H "Accept-Language: fr" wttr.in/rennes,+france'
