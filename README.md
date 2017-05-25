@@ -35,7 +35,9 @@ add to the end of `~/.bashrc`:
   
 ### Oh my zsh
 
+    sudo apt install fonts-powerline
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
     sed -ri 's/^ZSH_THEME=".+"(.*)/ZSH_THEME="agnoster"\1/' ~/.zshrc
     sed -ri 's/^(#\s*)?ENABLE_CORRECTION=.*/ENABLE_CORRECTION="true"/' ~/.zshrc
     sed -ri 's@^(#\s*)?HIST_STAMPS=.*@HIST_STAMPS="dd/mm/yyyy"@' ~/.zshrc
