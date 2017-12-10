@@ -9,3 +9,5 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ddig="dig axfr local | egrep --color "
 alias doco="docker-compose"
 alias meteo='curl -H "Accept-Language: fr" wttr.in/rennes,+france'
+
+alias curlb="curl -s -o /dev/null -w '%{time_starttransfer}\n'"
