@@ -50,6 +50,8 @@ add to the end of `~/.bashrc`:
     sudo apt install curl dnsutils git htop jq python3-pip ncdu tree vim-nox wget zsh 
     sudo pip install docker-compose httpie
 
+- [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
+- [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
 - [cockpit](https://cockpit-project.org/running.html#debian) - server manager that makes it easy to administer your GNU/Linux servers via a web browser
 - [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 - [netdata](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) - distributed real-time performance and health monitoring
