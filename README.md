@@ -52,8 +52,11 @@ add to the end of `~/.bashrc`:
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
+- [Cabot](https://cabotapp.com/) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 - [cockpit](https://cockpit-project.org/running.html#debian) - server manager that makes it easy to administer your GNU/Linux servers via a web browser
 - [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 - [fail2ban](https://www.fail2ban.org) - scans log files (e.g. /var/log/apache/error_log) and bans IPs that show the malicious signs -- too many password failures, seeking for exploits, etc
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy/) - interactive HTTPS proxy
+- [mtr](https://www.bitwizard.nl/mtr/) - ping + traceroute
 - [netdata](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) - distributed real-time performance and health monitoring
 
