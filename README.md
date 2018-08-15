@@ -54,5 +54,6 @@ add to the end of `~/.bashrc`:
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
 - [cockpit](https://cockpit-project.org/running.html#debian) - server manager that makes it easy to administer your GNU/Linux servers via a web browser
 - [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- [fail2ban](https://www.fail2ban.org) - scans log files (e.g. /var/log/apache/error_log) and bans IPs that show the malicious signs -- too many password failures, seeking for exploits, etc
 - [netdata](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) - distributed real-time performance and health monitoring
 
