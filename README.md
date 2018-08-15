@@ -44,3 +44,13 @@ add to the end of `~/.bashrc`:
     sed -ri 's/^(#\s*)?COMPLETION_WAITING_DOTS=.*/COMPLETION_WAITING_DOTS="true"/' ~/.zshrc
     
 
+# Toolbox
+
+    sudo apt update
+    sudo apt install curl dnsutils git htop jq python3-pip ncdu tree vim-nox wget zsh 
+    sudo pip install docker-compose httpie
+
+- [cockpit](https://cockpit-project.org/running.html#debian) - server manager that makes it easy to administer your GNU/Linux servers via a web browser
+- [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- [netdata](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) - distributed real-time performance and health monitoring
+
