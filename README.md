@@ -63,5 +63,8 @@ add to the end of `~/.bashrc`:
 - [cockpit](https://cockpit-project.org/running.html#debian) - server manager that makes it easy to administer your GNU/Linux servers via a web browser
 - [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 - [fail2ban](https://www.fail2ban.org) - scans log files (e.g. /var/log/apache/error_log) and bans IPs that show the malicious signs -- too many password failures, seeking for exploits, etc
-- [netdata](https://my-netdata.io/) - distributed real-time performance and health monitoring ([installation](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) oneliner: `bash <(curl -Ss https://my-netdata.io/kickstart.sh) all --dont-wait`)
+- [netdata](https://my-netdata.io/) - distributed real-time performance and health monitoring 
+
+    [installation](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) oneliner: 
+    `bash <(curl -Ss https://my-netdata.io/kickstart.sh) all --dont-wait`
 
