@@ -64,7 +64,5 @@ add to the end of `~/.bashrc`:
 - [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 - [fail2ban](https://www.fail2ban.org) - scans log files (e.g. /var/log/apache/error_log) and bans IPs that show the malicious signs -- too many password failures, seeking for exploits, etc
 - [netdata](https://my-netdata.io/) - distributed real-time performance and health monitoring 
-
-    [installation](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner) oneliner: 
-    `bash <(curl -Ss https://my-netdata.io/kickstart.sh) all --dont-wait`
+    > [installation](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner): `bash <(curl -Ss https://my-netdata.io/kickstart.sh) all --dont-wait`
 
