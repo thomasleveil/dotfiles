@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+
+  sftp:
+    image: schoolscout/scp-server
+    volumes:
+      - ./www:/home/data
+    ports:
+      - "2222:22"
+    environment:
+      AUTHORIZED_KEYS: xxxxxxxxxxxxxx  # see https://hub.docker.com/r/schoolscout/scp-server/ `base64 -w0 my-authorized-keys`
+    healthcheck:
+      test: pgrep sshd
