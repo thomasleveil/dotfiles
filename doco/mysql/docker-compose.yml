@@ -1,0 +1,51 @@
+version: "2.2"
+
+# dump: docker-compose exec -T mysql sh -c 'mysqldump --host localhost --user=root --password=$MYSQL_ROOT_PASSWORD --events --ignore-table=mysql.event --all-databases --opt --single-transaction' > db-all.sql
+
+services:
+
+  # https://github.com/phpmyadmin/docker
+  mysql:
+    image: mysql:5
+    command: >
+      mysqld
+      --sql-mode=PIPES_AS_CONCAT
+      --long-query-time=0.1
+      --slow-query-log-file=/var/log/mysql/slow.log
+      --slow-query-log=1
+      --query-cache-type=ON
+      --query-cache-size=5M
+      --query-cache-limit=5M
+      --tmp-table-size=512M
+      --max-heap-table-size=1G
+      --innodb-log-file-size=16M
+    environment:
+      MYSQL_DATABASE: foo
+      MYSQL_USER: foo
+      MYSQL_PASSWORD: foo
+      MYSQL_ROOT_PASSWORD: foo
+    expose:
+      - 3306
+    volumes:
+      - mysql-slow-queries:/var/log/mysql/:rw
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: bash -c "</dev/tcp/127.0.0.1/3306"
+
+  # https://github.com/phpmyadmin/docker
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    expose:
+      - 80
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: foo
+      PMA_PASSWORD: foo
+    tmpfs:
+      - /www/tmp
+    healthcheck:
+      test: curl --fail http://localhost:80 || exit 1
+
+volumes:
+  mysql-slow-queries:
+  mysql-data:
