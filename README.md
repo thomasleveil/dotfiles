@@ -66,3 +66,7 @@ add to the end of `~/.bashrc`:
 - [netdata](https://my-netdata.io/) - distributed real-time performance and health monitoring 
     > [installation](https://github.com/firehol/netdata/wiki/Installation#linux-one-liner): `bash <(curl -Ss https://my-netdata.io/kickstart.sh) all --dont-wait`
 
+## docker-compose recipes
+
+- [mysql](doco/mysql/)
+- [postgres](doco/postgres/)
