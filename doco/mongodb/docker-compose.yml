@@ -1,0 +1,29 @@
+version: "3"
+
+# dump: docker-compose exec -T db mongodump --archive > db.dump
+# load: cat db.dump | docker-compose exec -T db mongorestore --archive
+
+
+services:
+
+  db:
+    image: mongo:3.6
+    volumes:
+      - mongo-data:/data/db
+    expose:
+      - 27017
+    healthcheck:
+      test: bash -c "</dev/tcp/127.0.0.1/27017"
+
+  mongoexpress:
+    image: mongo-express
+    environment:
+      ME_CONFIG_MONGODB_SERVER: db
+      ME_CONFIG_OPTIONS_EDITORTHEME: material
+    depends_on:
+      - db
+    healthcheck:
+      test: wget --quiet --tries=1 --spider http://127.0.0.1:8081/
+
+volumes:
+  mongo-data: {}
