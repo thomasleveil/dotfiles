@@ -1,6 +1,7 @@
 version: "2.2"
 
-# dump: docker-compose exec -T mysql sh -c 'mysqldump --host localhost --user=root --password=$MYSQL_ROOT_PASSWORD --events --ignore-table=mysql.event --all-databases --opt --single-transaction' > db-all.sql
+# dump: docker-compose exec -T mysql sh -c 'mysqldump --host localhost --user=root --password="$MYSQL_ROOT_PASSWORD" --events --ignore-table=mysql.event --all-databases --opt --single-transaction' > db-all.sql
+# load: cat db_all.sql | docker-compose exec -T mysql sh -c 'mysql --user=root -p"$MYSQL_ROOT_PASSWORD"'
 
 services:
 
