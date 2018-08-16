@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  smtp:
+    image: mailhog/mailhog
+    user: root
+    expose:
+      - 25
+      - 8025
+    command: -smtp-bind-addr :25
