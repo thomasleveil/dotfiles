@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  smtp:
+    image: xadozuk/smtp-relay
+    environment:
+      SMTP_HOSTNAME: smtp-relay.gmail.com
+    healthcheck:
+      test: bash -c "cat </dev/null >/dev/tcp/127.0.0.1/25"
