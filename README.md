@@ -68,5 +68,7 @@ add to the end of `~/.bashrc`:
 
 ## docker-compose recipes
 
-- [mysql](doco/mysql/)
-- [postgres](doco/postgres/)
+- [mysql](doco/mysql/) - db, web admin, dump, load
+- [postgres](doco/postgres/) - db, web admin, dump, load
+- [fake smtp](doco/fakesmtp) - smtp server which does not send email for real but provide a web interface to show what would have been sent
+- [smtp relay](doco/smtprelay) - when TLS is in the way
