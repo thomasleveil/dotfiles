@@ -49,7 +49,7 @@ add to the end of `~/.bashrc`:
 ## commands
 
     sudo apt update
-    sudo apt install curl dnsutils git htop jq python3-pip ncdu tree vim-nox wget zsh 
+    sudo apt install curl dnsutils git htop jq lnav ncdu python3-pip tree vim-nox wget zsh 
     sudo pip install docker-compose httpie
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
