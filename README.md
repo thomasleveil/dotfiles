@@ -49,11 +49,12 @@ add to the end of `~/.bashrc`:
 ## commands
 
     sudo apt update
-    sudo apt install curl dnsutils git htop jq lnav ncdu python3-pip tree vim-nox wget zsh 
+    sudo apt install curl dnsutils dtrx git htop jq lnav ncdu python3-pip tree vim-nox wget zsh 
     sudo pip install docker-compose httpie
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
+- [lnav](http://lnav.org/downloads) - log viewer
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy/) - interactive HTTPS proxy
 - [mtr](https://www.bitwizard.nl/mtr/) - ping + traceroute
 
