@@ -78,4 +78,5 @@ add to the end of `~/.bashrc`:
 
 ## other tools
 
+- [Taurus](https://gettaurus.org/) - automate jMeter HTTP load tests
 - [teleconsole](https://www.teleconsole.com/) - share a termnial console with anyone (allows to forward ports)
