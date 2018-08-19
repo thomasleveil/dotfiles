@@ -5,6 +5,12 @@ git config
 
     curl -sL https://raw.githubusercontent.com/thomasleveil/dotfiles/master/git_config.sh | sh
 
+Linux Mint
+----------
+
+### Yubikey NEO fix
+
+    sudo wget https://raw.githubusercontent.com/Yubico/libu2f-host/master/70-u2f.rules -O /etc/udev/rules.d/70-uf2.rules
 
 
 WinSCP PuTTY config
