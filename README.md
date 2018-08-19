@@ -75,3 +75,7 @@ add to the end of `~/.bashrc`:
 - [fake smtp](doco/fakesmtp/docker-compose.yml) - smtp server which does not send email for real but provide a web interface to show what would have been sent
 - [smtp relay](doco/smtprelay/docker-compose.yml) - when TLS is in the way
 - [sftp](doco/sftp/docker-compose.yml)
+
+## other tools
+
+- [teleconsole](https://www.teleconsole.com/) - share a termnial console with anyone (allows to forward ports)
