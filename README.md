@@ -8,6 +8,10 @@ git config
 Linux Mint
 ----------
 
+```shell
+sudo apt install guake sublime-text
+```
+
 ### Yubikey NEO fix
 
     sudo wget https://raw.githubusercontent.com/Yubico/libu2f-host/master/70-u2f.rules -O /etc/udev/rules.d/70-uf2.rules
