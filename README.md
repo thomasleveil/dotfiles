@@ -64,6 +64,8 @@ add to the end of `~/.bashrc`:
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
+- [ctop](https://ctop.sh/) - Top-like interface for Docker container metrics
+- [Dive](https://github.com/wagoodman/dive) - Explore Docker images' layers contents
 - [lnav](http://lnav.org/downloads) - log viewer
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy/) - interactive HTTPS proxy
 - [mtr](https://www.bitwizard.nl/mtr/) - ping + traceroute
