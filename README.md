@@ -91,6 +91,7 @@ add to the end of `~/.bashrc`:
 
 ## other tools
 
+- [Jenkins DSL ready](https://github.com/thomasleveil/docker-jenkins-dsl-ready) - Jenkins ready to go as a Docker image
 - [Portainer](https://portainer.io/) - Web interface for managing containers, images, networks and volumes
 - [Taurus](https://gettaurus.org/) - automate jMeter HTTP load tests
 - [teleconsole](https://www.teleconsole.com/) - share a termnial console with anyone (allows to forward ports)
