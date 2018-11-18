@@ -54,7 +54,7 @@ add to the end of `~/.bashrc`:
     sed -ri 's/^(#\s*)?COMPLETION_WAITING_DOTS=.*/COMPLETION_WAITING_DOTS="true"/' ~/.zshrc
     
 
-# Toolbox
+# Toolbox (awesomeness)
 
 ## commands
 
@@ -81,6 +81,7 @@ add to the end of `~/.bashrc`:
 
 ## docker-compose recipes
 
+- [DockProm](https://github.com/thomasleveil/dockprom/tree/home) - docker-compose project to deploy Grafana+Prometheus+cAdvisor
 - [mysql](doco/mysql/docker-compose.yml) - db, web admin, dump, load
 - [postgres](doco/postgres/docker-compose.yml) - db, web admin, dump, load
 - [mongodb](doco/mongodb/docker-compose.yml) - db, web admin, dump, load
@@ -90,5 +91,7 @@ add to the end of `~/.bashrc`:
 
 ## other tools
 
+- [Portainer](https://portainer.io/) - Web interface for managing containers, images, networks and volumes
 - [Taurus](https://gettaurus.org/) - automate jMeter HTTP load tests
 - [teleconsole](https://www.teleconsole.com/) - share a termnial console with anyone (allows to forward ports)
+- [Traefik](https://traefik.io/) - A reverse proxy / load balancer that's easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology
