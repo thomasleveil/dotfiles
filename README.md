@@ -92,7 +92,9 @@ add to the end of `~/.bashrc`:
 ## other tools
 
 - [Jenkins DSL ready](https://github.com/thomasleveil/docker-jenkins-dsl-ready) - Jenkins ready to go as a Docker image
-- [Portainer](https://portainer.io/) - Web interface for managing containers, images, networks and volumes
+- [Portainer](https://portainer.io/) - web interface for managing containers, images, networks and volumes
 - [Taurus](https://gettaurus.org/) - automate jMeter HTTP load tests
 - [teleconsole](https://www.teleconsole.com/) - share a termnial console with anyone (allows to forward ports)
-- [Traefik](https://traefik.io/) - A reverse proxy / load balancer that's easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology
+- [testinfra](https://testinfra.readthedocs.io/en/latest/) - test your infrastructure
+- [Traefik](https://traefik.io/) - reverse proxy / load balancer that's easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology
+- [Venom](https://github.com/ovh/venom) - manage and run your integration tests with efficiency - Venom run executors (script, HTTP Request, web, imap, etc... ) and assertions
