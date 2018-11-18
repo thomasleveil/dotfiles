@@ -61,6 +61,7 @@ add to the end of `~/.bashrc`:
     sudo apt update
     sudo apt install curl dnsutils dtrx git htop jq lnav ncdu python3-pip tree vim-nox wget zsh 
     sudo pip install docker-compose httpie
+    sudo npm i -g fx
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
