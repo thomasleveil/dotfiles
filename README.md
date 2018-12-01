@@ -60,7 +60,7 @@ add to the end of `~/.bashrc`:
 
     sudo apt update
     sudo apt install curl dnsutils dtrx git htop jq lnav ncdu python3-pip tree vim-nox wget zsh 
-    sudo pip install docker-compose httpie
+    sudo pip install docker-compose httpie http-prompt
     sudo npm i -g fx
 
 - [BorgBackup](https://borgbackup.readthedocs.io/en/stable/installation.html) - deduplicating backup program. Optionally, it supports compression and authenticated encryption.
