@@ -67,6 +67,7 @@ add to the end of `~/.bashrc`:
 - [Borgmatic](https://github.com/witten/borgmatic) - wrapper script for the Borg backup software that creates and prunes backups
 - [ctop](https://ctop.sh/) - Top-like interface for Docker container metrics
 - [Dive](https://github.com/wagoodman/dive) - Explore Docker images' layers contents
+- [Hexyl](https://github.com/sharkdp/hexyl) - command-line hex viewer
 - [lnav](http://lnav.org/downloads) - log viewer
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy/) - interactive HTTPS proxy
 - [mtr](https://www.bitwizard.nl/mtr/) - ping + traceroute
