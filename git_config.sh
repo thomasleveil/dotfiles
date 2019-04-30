@@ -6,6 +6,7 @@ git config --global user.name "Thomas LEVEIL"
 git config --global color.ui "auto"
 git config --global help.autocorrect 10
 git config --global push.default simple
+git config --global core.commentChar $
 
 git config --global alias.b  'branch'
 git config --global alias.ba 'branch -a'
