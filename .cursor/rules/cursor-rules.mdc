@@ -63,3 +63,5 @@ function badExample() {
   // Implementation not following guidelines
 }
 ```
+
+6. Never try to create the PROJECT_ROOT/.cursor/rules/ directory if it already exists
