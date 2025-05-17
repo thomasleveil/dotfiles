@@ -5,3 +5,62 @@ Start with a one-sentence summary no longer than 72 characters, followed by two 
 Ensure the detailed message is well-structured and each line does not exceed 72 characters. In the detailed message. 
 Make use of bullet point list whenever it facilitate comprehension. 
 Use a gitmoji icon in the title and start with the kind of change (bug, feature, doc, ...)
+
+Gitmoji reference table:
+Improve structure / format of the code.,🎨
+Improve performance.,⚡️
+Remove code or files.,🔥
+Fix a bug.,🐛
+Critical hotfix.,🚑️
+Introduce new features.,✨
+Add or update documentation.,📝
+Deploy stuff.,🚀
+Add or update the UI and style files.,💄
+Begin a project. Initial commits.,🎉
+"Add, update, or pass tests.",✅
+Fix security or privacy issues.,🔒️
+Add or update secrets.,🔐
+Release / Version tags.,🔖
+Fix compiler / linter warnings.,🚨
+Work in progress.,🚧
+Fix CI Build.,💚
+Downgrade dependencies.,⬇️
+Upgrade dependencies.,⬆️
+Pin dependencies to specific versions.,📌
+Add or update CI build system.,👷
+Refactor code.,♻️
+Add a dependency.,➕
+Remove a dependency.,➖
+Add or update configuration files.,🔧
+Add or update development scripts.,🔨
+Internationalization and localization.,🌐
+Fix typos.,✏️
+Revert changes.,⏪️
+Add or update compiled files or packages.,📦️
+Update code due to external API changes.,👽️
+"Move or rename resources (e.g.: files, paths, routes).",🚚
+Improve accessibility.,♿️
+Add or update comments in source code.,💡
+Add or update text and literals.,💬
+Perform database related changes.,🗃️
+Add or update logs.,🔊
+Remove logs.,🔇
+Improve user experience / usability.,🚸
+Make architectural changes.,🏗️
+Mock things.,🤡
+Add or update a .gitignore file.,🙈
+Perform experiments.,⚗️
+Add or update types.,🏷️
+"Add, update, or remove feature flags.",🚩
+Catch errors.,🥅
+Deprecate code that needs to be cleaned up.,🗑️
+"Work on code related to authorization, roles and permissions.",🛂
+Simple fix for a non-critical issue.,🩹
+Remove dead code.,⚰️
+Add a failing test.,🧪
+Add or update business logic.,👔
+Add or update healthcheck.,🩺
+Infrastructure related changes.,🧱
+Improve developer experience.,🧑‍💻
+Add or update code related to multithreading or concurrency.,🧵
+Add or update code related to validation.,🦺
